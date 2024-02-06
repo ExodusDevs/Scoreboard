@@ -10,7 +10,7 @@
 * @status: Stable
 */
 
-namespace isrdxv\scoreboard;
+namespace exodus\scoreboard;
 
 use pocketmine\player\Player;
 
