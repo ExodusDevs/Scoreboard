@@ -71,7 +71,8 @@ class Scoreboard
 
   public function setLine(int $line, string $description = ""): void
   {
-    //$this->removeLine($line);
+    //line unset
+    $this->removeLine($line);
     
     $entry = new ScorePacketEntry();
     $entry->type = ScorePacketEntry::TYPE_FAKE_PLAYER;
